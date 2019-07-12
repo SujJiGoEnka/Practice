@@ -5,7 +5,7 @@ Feature: Searching Mobile on google.com
     Given User is on homepage
     And open google.com
 
-  @mobile
+  @mobile1
   Scenario Outline: Successfull search mobiles on google.com
     When user search for "<product>"
     And click on search button
