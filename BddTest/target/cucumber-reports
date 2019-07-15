@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.081893">
+<testcase classname="Searching Mobile on google.com" name="Successfull search mobiles on google.com" time="0.081361">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+And open google.com.........................................................passed
+When user search for "mobile"...............................................passed
+And click on search button..................................................passed
+Then search result should come on the screen................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching Mobile on google.com" name="Successfull search mobiles on google.com 2" time="0.000532">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+And open google.com.........................................................passed
+When user search for "computer".............................................passed
+And click on search button..................................................passed
+Then search result should come on the screen................................passed
+]]></system-out>
+</testcase>
+</testsuite>

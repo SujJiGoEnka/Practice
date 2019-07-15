@@ -17,7 +17,7 @@ public class Login {
 
 	@When("^user search for mobile phones$")
 	public void user_search_for_mobile_phones() throws Throwable {
-		System.out.println("user search for mobile phones");
+		System.out.println("users search for mobile phones");
 	}
 
 	@When("^click on search button$")
